@@ -55,6 +55,7 @@ public class EmployeeTest {
 
     @Test
     public void canSetName() {
+//        arrange, ask, assert
         employee.setName("Ted");
         engineer.setName("Bob");
         admin.setName("Bill");
